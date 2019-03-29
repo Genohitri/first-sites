@@ -1,0 +1,110 @@
+body  {
+	background-image: url("../images/kids.png") ;
+	background-size: 100%;
+
+}
+
+header {
+	margin: 100px;
+	
+}
+
+
+
+
+.dws-menu * {
+	margin: 0;
+	padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu ol {
+	list-style: none;
+}
+
+.dws-menu > ul {
+	display: flex;
+	justify-content: center;
+	padding-left: 0;
+	
+}
+
+
+
+.dws-menu ul li a {
+	display: block;
+	padding: 15px 30px 15px 40px;
+	font-size: 14px;
+	text-decoration: none;
+	color: white;
+	text-decoration: none;
+	border-right: 1px solid white;
+	transition: all 0.3s ease;
+}
+
+.dws-menu ul >  li {
+	position: relative;
+}
+
+.dws-menu ul > li i {
+	
+	top: 0;
+	left: 0;
+	
+	font-size: 18px;
+
+}
+
+
+
+.dws-menu ul li:first-child {
+	border-left: 1px solid white;
+}
+
+.dws-menu li a:hover {
+	background: rgba(153, 153, 153, .5 );
+	color: black;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+}
+
+
+.dws-menu li ul {
+	position: absolute;
+	min-width: 180px;
+	display: none;
+}
+
+.dws-menu li > ul li   {
+	border: 1px solid white;
+}
+
+.dws-menu li > ul li a {
+	padding: 10px;
+	text-transform: none;
+}
+
+.dws-menu li > ul li  ul {
+	position: absolute;
+	right: -180px;
+	bottom: -80px;
+
+}	
+
+.dws-menu li:hover > ul {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
